@@ -11,7 +11,7 @@ class EmailAddressParser
   attr_accessor:email
 
   def parse
-  return @email.to_s.split(", ").uniq
+  return @email.to_s.split(",").uniq
   end
   
 end
